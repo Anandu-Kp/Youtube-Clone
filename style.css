@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+html {
+    background-color: #212121;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #303030;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.middle {
+    width: 35%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.search input {
+    padding: 10px;
+    border: 3px solid #303030;
+    background-color: #121212;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    width: 90%;
+}
+
+.search img {
+    background-color: #303030;
+    width: 45px;
+
+}
+
+.mic {
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+
+/* -----MAIN----- */
+
+main {
+    display: flex;
+}
+
+.topmenu {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.topmenu span {
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+
+.topmenu-icon {
+    position: relative;
+    right: 50px;
+}
+
+
+/* -----VIDEO CONTAINER----- */
+
+.container {
+    padding: 20px;
+    /* display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-flow: row wrap; */
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    gap: 20px;
+    background-color: #121212;
+    height: 100%;
+}
+
+.video {
+
+
+    display: flex;
+    flex-direction: column;
+    color: #AAAAAA;
+}
+
+.thumbnail {
+    width: 300px;
+}
+
+.thumbnail img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+
+
+.description {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right span {
+    font-size: 18px;
+}
